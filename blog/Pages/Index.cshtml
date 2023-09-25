@@ -1,0 +1,30 @@
+﻿@page 
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">NOVIDADES</h1>
+    <div class="row">
+
+    @if (Model.Filmes != null)
+    {
+        foreach (var filme in Model.Filmes)
+        {
+            <div class="card m-2 p-1" style="width: 10rem;">
+                <a asp-area="" asp-page="/Detalhes" asp-route-id="@filme.Id">
+                    <img src="@filme.Url"
+                        class="card-img-top p-2" alt="...">
+                </a>
+                <h5 class="card-title"><strong>@filme.Titulo</strong></h5>
+                <div class="card-text">
+                    IMDB: @filme.Imdb
+                </div>
+            </div>
+            
+        }
+    }
+    </div>
+</div>
+ 
