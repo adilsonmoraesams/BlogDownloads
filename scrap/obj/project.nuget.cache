@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "2jqY8O7J3npSL7CB9BZz2q9rT+UH9DfGlWHGKLXii4rRc19iS0BKuqnHPsSQEOi1ZyNXjsEeHXCuN8AFA8Zajg==",
+  "success": true,
+  "projectFilePath": "/home/dih/projetos/downloads_filmes/scrap/scrap.csproj",
+  "expectedPackageFiles": [
+    "/home/dih/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "/home/dih/.nuget/packages/microsoft.win32.systemevents/7.0.0/microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "/home/dih/.nuget/packages/mysqlconnector/2.3.3/mysqlconnector.2.3.3.nupkg.sha512",
+    "/home/dih/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/dih/.nuget/packages/selenium.webdriver/4.14.1/selenium.webdriver.4.14.1.nupkg.sha512",
+    "/home/dih/.nuget/packages/selenium.webdriver.chromedriver/118.0.5993.7000/selenium.webdriver.chromedriver.118.0.5993.7000.nupkg.sha512",
+    "/home/dih/.nuget/packages/system.drawing.common/7.0.0/system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

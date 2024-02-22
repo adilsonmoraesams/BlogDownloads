@@ -1,24 +1,23 @@
 version: '3.8'
+services:
 
-services: 
   db:
-    container_name: db
+    container_name: db-blog
     image: mysql
     restart: always
+    volumes:
+     - ./.docker/mysql:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
-      MYSQL_DATABASE: MYSQL_DATABASE
-      MYSQL_USER: MYSQL_USER
-      MYSQL_PASSWORD: MYSQL_PASSWORD
+      MYSQL_ROOT_PASSWORD: Crocante@1316
+      MYSQL_DATABASE: blog
+      MYSQL_USER: blog
+      MYSQL_PASSWORD: Crocante@1316
     ports:
       - "3306:3306"
+ 
 
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    ports:
-        - '8080:80'
+  adminer:
+    image: adminer
     restart: always
-    environment:
-        PMA_HOST: db
-    depends_on:
-        - db
+    ports:
+      - 8282:8080

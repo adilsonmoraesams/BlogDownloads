@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dih/projetos/downloads_filmes/scrap/scrap.csproj": {}
+  },
+  "projects": {
+    "/home/dih/projetos/downloads_filmes/scrap/scrap.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dih/projetos/downloads_filmes/scrap/scrap.csproj",
+        "projectName": "MyUX.Tests",
+        "projectPath": "/home/dih/projetos/downloads_filmes/scrap/scrap.csproj",
+        "packagesPath": "/home/dih/.nuget/packages/",
+        "outputPath": "/home/dih/projetos/downloads_filmes/scrap/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dih/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.3, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[118.0.5993.7000, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
