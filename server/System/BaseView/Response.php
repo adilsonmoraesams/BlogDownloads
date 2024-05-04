@@ -84,6 +84,7 @@ class Response
     
     public static function View($page, $data = null, $layout = "public")
     {
+        
         $view = $_ENV["URL_PATH"] . "/App/View/" . $page.".php";
         
         if ($layout == null) {
